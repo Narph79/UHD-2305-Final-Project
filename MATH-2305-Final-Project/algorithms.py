@@ -3,7 +3,20 @@
 from functions import min_prims_edge, initialize_prims, is_spanning, cost, E
 from drawing import show_weighted_graph, draw_subtree
 
+"""declaration and initiation of prims algorithm."""
 def prims_algorithm(G, starting_vertex, show_graph = False, show_cost = False):
+    """
+Parameters
+----------
+G : int
+    
+starting_vertex : int
+    initialiing the minimum spanning tree, vertex chosen at random
+show_graph : boolean
+    initializing value, which switches once spanning tree is contructed
+show_cost : boolean
+
+"""
     if show_graph == True:
         show_weighted_graph(G)
         
