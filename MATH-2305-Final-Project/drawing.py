@@ -3,6 +3,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def show_weighted_graph(G):
+    """
+    Parameters
+    ----------
+    G : int
+    """
     pos = nx.planar_layout(G)
     nx.draw(G, pos)
     labels = nx.get_edge_attributes(G, 'weight')
