@@ -1,5 +1,5 @@
 import networkx as nx
-
+#Functions.py holds all the helper functions needed to execute mins_prim_edge function which is Prim's Algorithm.
 def V(graph):
     """ takes data from the graph.txt file and creats a list of nodes """
     return list(graph.nodes())
