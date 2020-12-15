@@ -17,6 +17,7 @@ show_graph : boolean
 show_cost : boolean
 
 """
+    #This code is intended to display the graph and show the different connections between nodes.
     if show_graph == True:
         show_weighted_graph(G)
         
