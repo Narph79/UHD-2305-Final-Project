@@ -8,6 +8,23 @@ Group Members:
   
   Purpose:
     This final project package is to implement, through Python programming language, the Prim's Algorithm to evaluate weighted edges of various graphs included within this package.
+    Usefuleness: The project will streamline the MST process by showing the correct segements of a graph as well as the weight and will give the user a visual to more easily understand the problem and solution.
+    
+  How to use: save a copy of the files to your local drive and use the appropirate ide - Anaconda was used for this project and would be recommended that the user use the same.
+  
+  The following places can be used for further education:
+  https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/
+  https://en.wikipedia.org/wiki/Prim%27s_algorithm
+  
+  Maintenance/Contributors: 
+  Maria Martinez
+  Luis Herrera
+  Michael Huynh
+  Tom Sunny
+  Jonathan Thomas
+
+
+Project Documentation - pulled from PDF.
 
 Final Project Outline: MST Python Package 
 For the final project you and your group will write a python package that solves the minimum weight spanning tree problem. More specifically, you will write python code that implements Prim’s Algorithm from scratch. Your package should be partitioned into several python scripts and a subdirectory (folder) that contains several test graphs to test your code on. Your code should be well documented, cleanly written, and should work! This project will be due on the day of your final exam (please check the UHD website for your specific date. Please email me your full projected (compressed as a zip file) to me at DavilaR@uhd.edu. The title of your email should be MATH-2305-Final-Project name1, name2, ... name5
