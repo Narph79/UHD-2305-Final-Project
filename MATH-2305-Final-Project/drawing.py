@@ -1,7 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
-
+#Drawing.py hold the functions required in algorithms to display the graph, the weight of the nodes as well as the names of the nodes.
 def show_weighted_graph(G):
     """
     Parameters
