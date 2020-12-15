@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# main.py executes the combined functions.
 
 import networkx as nx
 from functions import *
