@@ -18,13 +18,35 @@ def is_spanning(graph, subgraph):
     return V(graph) == V(subgraph)
 
 def cost(G, e):
+    """
+    Parameters
+    ----------
+    G : int
+    e : int
+    
+    """
+    
     return G[e[0]] [e[1]] ['weight']
 
 def possible_edges(G, T):
+    """
+    Parameters
+    ----------
+    G : int
+    T : int
+    
+    """
     return [e for e in list(G.edges(V(T))) 
             if e[0] not in V(T) or e[1] not in V(T)]
 
 def min_prims_edge(G, T):
+    """ 
+    Parameters
+    ----------
+    G : int
+    T : int
+    
+    """
     f = possible_edges(G,T)
     temp = cost(G, f[0])
     k = 0
