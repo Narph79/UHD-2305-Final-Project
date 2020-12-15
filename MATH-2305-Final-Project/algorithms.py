@@ -8,7 +8,7 @@ def prims_algorithm(G, starting_vertex, show_graph = False, show_cost = False):
     """
 Parameters
 ----------
-G : int
+G : classes.graph.Graph
     
 starting_vertex : int
     initialiing the minimum spanning tree, vertex chosen at random
